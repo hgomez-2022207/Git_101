@@ -1,5 +1,19 @@
 body{
     background: rgb(12,0,36);
     background: linear-gradient(90deg, rgba(12,0,36,1) 0%, rgba(99,9,121,1) 42%, rgba(209,0,255,1) 82%);    background-position: center;
-    
+
+}
+
+main{
+    background: transparent;
+    border:1px, white;
+    background-position: center;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+}
+  
+h2{
+    font-family: Arial, Helvetica, sans-serif;
 }

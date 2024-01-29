@@ -6,14 +6,33 @@ body{
 
 main{
     background: transparent;
-    border:1px, white;
+    border: 1px solid floralwhite;
     background-position: center;
+    padding: 20px;
+    width: 60vh;
+    margin: 10vh auto;
+
 }
 
 h1{
     font-family: "Times New Roman", Times, serif;
+    font-size: 30pt;
+    color: blueviolet;
 }
   
 h2{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+}
+
+button{
+    background: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1ps solid white;
+    color: white;
+    margin: 3vh;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: white;
 }

@@ -11,7 +11,7 @@ main{
     padding: 20px;
     width: 60vh;
     margin: 10vh auto;
-
+    border-radius: 15px;
 }
 
 h1{
@@ -29,10 +29,36 @@ h2{
 button{
     background: blueviolet;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 1ps solid white;
+    border: 1px solid white;
+    width: 8vh;
     color: white;
     margin: 3vh;
     padding: 8px;
     border-radius: 8px;
     border-color: white;
+}
+
+button:hover{
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    margin: 3vh;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: blueviolet;
+}
+
+a{
+    color: aliceblue;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: white;
+    border-radius: 20px;
+    width: 30vh;
+    text-align: center;
+    padding: 5px;
 }

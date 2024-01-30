@@ -73,3 +73,15 @@ button:hover{
     border: 1px solid blue;
     color: blue;
 }
+
+table{
+    width: 85vh;
+    padding: 2vh;
+}
+
+td{
+    border: 1px solid skyblue;
+    padding: 4px;
+    border-radius: 20px;
+    color: purple;
+}

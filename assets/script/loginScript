@@ -1,0 +1,17 @@
+function login(){ 
+    var done=0; 
+    /*var usuario = document.getElementById("usuario").value;
+    var password = document.getElementById("password").value;*/
+    var usuario=document.index.usuario.value; 
+    var password=document.index.password.value; 
+    console.log(usuario,password)
+    if (usuario=="herlingomez@gmail.com" && password=="123") { 
+        window.location="./assets/contactos.html"; 
+    } 
+    if (usuario=="bgomez@gmail.com" && password=="123") { 
+        window.location="./assets/contactos.html"; 
+    } 
+    if (usuario=="" && password=="") { 
+        window.alert("Correo o clave incorrectas.");
+    } 
+} 

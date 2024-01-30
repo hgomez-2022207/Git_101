@@ -2,6 +2,12 @@ body{
     background-color: aliceblue;
 }
 
+nav{
+    background-color: skyblue;
+    width: 200vh;
+    padding: 1px;
+}
+
 main{
     width: 200vh;
 }
@@ -16,12 +22,24 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div{
+.div1{
     background: transparent;
     border: 1px solid skyblue;
     padding: 20px;
     width: 60vh;
     margin: 5vh;
+    border-radius: 15px;
+}
+
+
+.div2{
+    background: transparent;
+    border: 1px solid skyblue;
+    padding: 20px;
+    width: 100vh;
+    position: absolute;
+    top: 13vh;
+    left: 75vh;
     border-radius: 15px;
 }
 

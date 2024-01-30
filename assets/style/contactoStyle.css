@@ -1,3 +1,47 @@
 body{
     background-color: aliceblue;
 }
+
+main{
+    width: 200vh;
+}
+
+div{
+    background: transparent;
+    border: 1px solid skyblue;
+    padding: 20px;
+    width: 60vh;
+    margin: 5vh;
+    border-radius: 15px;
+}
+
+input{
+    border: 1px solid skyblue;
+    width: 25vh;
+    border-radius: 8px;
+    color: blue;
+    text-align: center;
+    margin: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+hr{
+    border: 1px solid skyblue;
+}
+
+button{
+    background-color: aliceblue;
+    color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border-radius: 15px;
+    border: 1px solid skyblue;
+}
+
+button:hover{
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+    color: blue;
+}

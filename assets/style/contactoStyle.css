@@ -106,3 +106,7 @@ select{
 option{
     background-color: blue;
 }
+
+p{
+    color: blue;
+}

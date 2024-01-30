@@ -75,8 +75,15 @@ button:hover{
 }
 
 table{
-    width: 85vh;
+    width: 95vh;
     padding: 2vh;
+}
+
+th{
+    border: 1px solid blue;
+    padding: 4px;
+    border-radius: 20px;
+    color: blue;
 }
 
 td{
@@ -84,4 +91,18 @@ td{
     padding: 4px;
     border-radius: 20px;
     color: purple;
+}
+
+select{
+    position: absolute;
+    left: 2vh;
+    top:4vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+}
+
+option{
+    background-color: blue;
 }

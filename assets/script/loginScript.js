@@ -1,16 +1,11 @@
-function Login(){ 
-    var done=0; 
-    var usuario= "herlingomez@gmail.com"
-    var password="12345678"
-    /* var usuario=document.login.usuario.value; 
-    var password=document.login.password.value; */
-    if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
-        window.location="./assets/contactos.html"; 
-    } 
-    if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
-        window.location="TU_PAGINA_WEB.HTML"; 
-    } 
-    if (usuario=="" && password=="") { 
-        window.location="errorpopup.html"; 
-    } 
+function login(){ 
+    var user, pass;
+
+    user = document.getElementById("usuario").value;
+
+    pass = document.getElementById("password").value;
+
+    if(user == "hgomez-2022207" && pass == "12345" || user == "bgomez-2022208" && pass == "12345"){
+        window.location = "./assets/contactos.html"
+    }
 } 

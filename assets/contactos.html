@@ -20,16 +20,18 @@
             <div class="div1">
                 <h2>Agregar nuevo contacto.</h2>
                 <p>Nombre:</p>
-                <input type="text"><hr>
+                <input type="text"id="nombre" ><hr>
                 <p>Correo electronico:</p>
-                <input type="text"><hr>
+                <input type="text" id="email"><hr>
                 <p>Telefono:</p>
-                <input type="text"><br>
-                <button>Agregar</button>
+                <input type="text" id="telefono"><br>
+                <p>Comentario:</p>
+                <input type="text" id="comentario"><br>
+                <button onclick="captura()">Agregar</button>
             </div>
             <div class="div2">
                 <h2>Lista de Contactos</h2>
-                <table>
+                <table id="tblDatos">
                     
                     <tr>
                       <th>Nombre</th>
@@ -51,5 +53,6 @@
             
 
     </main>
+    <script src="./script/contactoScript.js"></script>
 </body>
 </html>

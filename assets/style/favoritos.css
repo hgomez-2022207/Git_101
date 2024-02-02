@@ -5,38 +5,14 @@ body{
 nav{
     background-color: skyblue;
     width: 200vh;
-    padding: 1vh;
-}
-
-main{
-    width: 200vh;
-}
-
-h1{
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 5vh;
 }
 
 a{
     color: aliceblue;
 }
 
-h2{
-    color: skyblue;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.div1{
-    background: transparent;
-    border: 1px solid skyblue;
-    padding: 20px;
-    width: 60vh;
-    margin: 5vh;
-    border-radius: 15px;
-}
-
-
-.div2{
+div{
     background: transparent;
     border: 1px solid skyblue;
     padding: 20px;
@@ -45,22 +21,19 @@ h2{
     top: 13vh;
     left: 75vh;
     border-radius: 15px;
+    margin: 5vh auto;
 }
 
 input{
     margin-left: 100vh;
     border: 1px solid skyblue;
-    width: 55vh;
+    width: 25vh;
     border-radius: 8px;
     color: blue;
     text-align: center;
     margin: 2vh;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
-}
-
-hr{
-    border: 1px solid skyblue;
 }
 
 button{
@@ -76,43 +49,6 @@ button:hover{
     background-color: skyblue;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid blue;
-    color: blue;
-}
-
-table{
-    width: 95vh;
-    padding: 2vh;
-}
-
-th{
-    border: 1px solid blue;
-    padding: 4px;
-    border-radius: 20px;
-    color: blue;
-}
-
-td{
-    border: 1px solid skyblue;
-    padding: 4px;
-    border-radius: 20px;
-    color: purple;
-}
-
-select{
-    position: absolute;
-    left: 2vh;
-    top:4vh;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    border-radius: 15px;
-}
-
-option{
-    background-color: blue;
-}
-
-p{
     color: blue;
 }
 

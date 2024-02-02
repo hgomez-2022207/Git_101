@@ -64,6 +64,13 @@ th{
     color: blue;
 }
 
+td{
+    border: 1px solid skyblue;
+    padding: 4px;
+    border-radius: 20px;
+    color: purple;
+}
+
 .responsive{
     display: grid;
     grid-template-columns: repeat(

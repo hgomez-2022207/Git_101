@@ -16,12 +16,9 @@ div{
     background: transparent;
     border: 1px solid skyblue;
     padding: 20px;
-    width: 100vh;
-    position: absolute;
-    top: 13vh;
-    left: 75vh;
+    width: 120vh;
     border-radius: 15px;
-    margin: 5vh auto;
+    margin: 20px auto;
 }
 
 input{
@@ -53,7 +50,7 @@ button:hover{
 }
 
 table{
-    width: 95vh;
+    width: 118vh;
     padding: 2vh;
 }
 

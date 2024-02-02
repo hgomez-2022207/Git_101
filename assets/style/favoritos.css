@@ -52,6 +52,18 @@ button:hover{
     color: blue;
 }
 
+table{
+    width: 95vh;
+    padding: 2vh;
+}
+
+th{
+    border: 1px solid blue;
+    padding: 4px;
+    border-radius: 20px;
+    color: blue;
+}
+
 .responsive{
     display: grid;
     grid-template-columns: repeat(

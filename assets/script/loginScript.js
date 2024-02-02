@@ -9,4 +9,18 @@ function login(){
     || user == "becheveria" && pass == "12345"){
         window.location = "./assets/contactos.html"
     }
+
+     insertarUsuario(usuario,password);
 } 
+
+function insertarUsuario(usuario,password){
+    let tblDatosUser = document.getElementById('tblDatosUser').insertRow(1);
+    let col1 = tblDatos.tblDatosUser(1);
+    let col2 = tblDatos.tblDatosUser(3);
+
+
+
+    col1.innerHTML = usuario;
+    col2.innerHTML = password;
+
+}

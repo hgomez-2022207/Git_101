@@ -7,17 +7,13 @@
     <title>Contactos</title>
 </head>
 <body align="center">
-    <nav>
-        <select name="dog-names" id="dog-names">
-            <option value="perfil" onclick="abrirUsuario()">Perfil</option>
-            <option value="favoritos">Favoritos</option>
-            <option value="tareas">Tareas</option>
-        </select>
-        <h1>Contactos</h1>
+    <nav align="left">      
+            <a href="./usuario.html">hgomez-2022207</a>
+            <a href="./newContact.html">Nuevo</a>
+            <a href="./favorito.html">Favoritos</a>
     </nav>
-    <main>
-    
-            <div class="div1">
+    <main class="responsive">
+            <div class="div1 responsive">
                 <h2>Agregar nuevo contacto.</h2>
                 <p>Nombre:</p>
                 <input type="text"id="nombre" ><hr>
@@ -29,7 +25,7 @@
                 <input type="text" id="comentario"><br>
                 <button onclick="captura()">Agregar</button>
             </div>
-            <div class="div2">
+            <div class="div2 responsive">
                 <h2>Lista de Contactos</h2>
                 <table id="tblDatos">
                     

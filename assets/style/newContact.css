@@ -50,13 +50,19 @@ button:hover{
 }
 
 .responsive{
+  
     display: grid;
     grid-template-columns: repeat(
-        auto-fit,
-        minmax(
-            150vh,
-            1fr
-            )
-            gap = 10vh
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
     );
-}
+    gap: 16px;
+     justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 110vh;
+    
+  }

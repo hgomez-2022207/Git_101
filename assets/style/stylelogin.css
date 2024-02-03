@@ -71,3 +71,21 @@ input{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
+
+.responsive{
+  
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
+    );
+    gap: 16px;
+     justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 110vh;
+    
+  }

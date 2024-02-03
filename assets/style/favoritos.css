@@ -16,7 +16,7 @@ div{
     background: transparent;
     border: 1px solid skyblue;
     padding: 20px;
-    width: 120vh;
+    width: 80vh;
     border-radius: 15px;
     margin: 20px auto;
 }
@@ -54,7 +54,7 @@ h1{
 }
 
 table{
-    width: 118vh;
+    width: 80vh;
     padding: 2vh;
 }
 
@@ -73,13 +73,20 @@ td{
 }
 
 .responsive{
+  
     display: grid;
     grid-template-columns: repeat(
-        auto-fit,
-        minmax(
-            150vh,
-            1fr
-            )
-            gap = 10vh
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
     );
-}
+    gap: 16px;
+     justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 50vh;
+      width: 90vh;
+    
+  }

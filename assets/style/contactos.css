@@ -1,11 +1,18 @@
 body{
     background-color: aliceblue;
+
+}
+
+main{
+    width: 200vh;
+    display: flex;
 }
 
 nav{
     background-color: skyblue;
     width: 200vh;
-    padding: 5vh;
+    padding: 1vh;
+    margin: 1vh;
 }
 
 a{
@@ -17,7 +24,7 @@ a{
     border: 1px solid skyblue;
     padding: 20px;
     width: 60vh;
-    margin: 5vh auto;
+    margin:  auto;
     border-radius: 15px;
 }
 
@@ -50,13 +57,20 @@ button:hover{
 }
 
 .responsive{
+  
     display: grid;
     grid-template-columns: repeat(
-        auto-fit,
-        minmax(
-            150vh,
-            1fr
-            )
-            gap = 10vh
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
     );
-}
+    gap: 16px;
+     justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 20vh;
+      width: 60vh;
+    
+  }
